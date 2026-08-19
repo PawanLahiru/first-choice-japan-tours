@@ -1,10 +1,14 @@
-First Choice Japan Tours
+# First Choice Japan Tours
 
 A modern and responsive travel website designed for a Japan-based tour company.
 
 The website showcases popular destinations, tour packages, customer reviews, travel information, and inquiry options for travelers interested in visiting Japan.
 
-Overview
+## Live Demo
+
+[View Live Website](https://first-choice-japan-tours.vercel.app/)
+
+## Overview
 
 First Choice Japan Tours was developed as a modern tourism website focused on usability, responsive design, reusable components, and a clean user experience.
 
@@ -18,7 +22,7 @@ The project includes destination information and tour experiences for popular lo
 
 The application was built with a component-based and feature-based architecture to keep the code organized, reusable, and maintainable.
 
-Features
+## Features
 
 * Responsive design for desktop, tablet, and mobile
 * Modern homepage with hero section
@@ -54,33 +58,36 @@ Features
 * Open Graph image
 * Custom favicons
 
-Technologies Used
+## Technologies Used
 
-Frontend
+#### Frontend
 
 * Next.js
 * React
 * TypeScript
 * Tailwind CSS
 
-UI and Components
+#### UI and Components
 
 * shadcn/ui
 * Lucide React
 * Reusable React components
 * Responsive layout components
 
-Development Tools
+#### Development Tools
 
 * Git
 * GitHub
 * npm
 * Visual Studio Code
 
-Project Structure
+## Project Structure
+
+## Project Structure
 
 The application uses a feature-based architecture.
 
+```text
 src/
 ├── app/
 │   ├── about/
@@ -118,13 +125,13 @@ src/
 │
 ├── lib/
 ├── providers/
-└── types/
-
+└── types/ 
+```
 This structure separates application features into dedicated modules while keeping reusable components in centralized locations.
 
-Main Pages
+## Main Pages
 
-Home
+## Home
 
 The homepage introduces the travel company and provides quick access to important information such as:
 
@@ -137,7 +144,7 @@ The homepage introduces the travel company and provides quick access to importan
 * Testimonials
 * Call-to-action sections
 
-About
+## About
 
 The About page provides information about the company and includes:
 
@@ -147,22 +154,22 @@ The About page provides information about the company and includes:
 * Team section
 * Reasons to travel with the company
 
-Tours
+## Tours
 
 The Tours page allows visitors to explore available travel packages.
 
-Features include:
+## Features include:
 
 * Tour cards
 * Tour filtering
 * Responsive tour grid
 * Dedicated tour detail pages
 
-Dynamic Tour Pages
+## Dynamic Tour Pages
 
 Individual tour pages use dynamic routing through:
 
-/tours/[slug]
+```/tours/[slug]```
 
 Each tour page can contain:
 
@@ -180,36 +187,36 @@ Each tour page can contain:
 
 This approach allows tour information to be managed using reusable components and structured data.
 
-Tour Filtering
+## Tour Filtering
 
 The project includes filtering functionality for tour packages.
 
 Tour filtering logic is separated into reusable hooks and utility functions:
-
+```
 src/features/tours/hooks/use-tour-filter.ts
 src/features/tours/utils/filter-tours.ts
-
+```
 This helps keep the UI components separate from filtering logic and improves maintainability.
 
-Gallery
+## Gallery
 
 The website includes dedicated gallery functionality with responsive image layouts.
 
 Visitors can explore travel images related to destinations and experiences across Japan.
 
-Reviews
+## Reviews
 
 The reviews section displays customer experiences and testimonials using reusable review components.
 
 Reviews are used throughout both the homepage and dedicated review sections.
 
-FAQ
+## FAQ
 
 The FAQ page provides frequently asked questions using accordion-based UI components.
 
 This helps travelers quickly find common information before making an inquiry.
 
-Contact
+## Contact
 
 The contact page contains:
 
@@ -221,7 +228,7 @@ The contact page contains:
 
 A floating WhatsApp contact button is also available for convenient communication.
 
-Reusable Components
+## Reusable Components
 
 The project contains reusable components to maintain a consistent design throughout the website.
 
@@ -245,7 +252,7 @@ Examples include:
 * Footer
 * Mobile menu
 
-Responsive Design
+## Responsive Design
 
 The application was designed to adapt across multiple screen sizes.
 
@@ -258,7 +265,7 @@ Supported layouts include:
 
 Responsive behavior has been implemented for navigation, tour cards, galleries, text sections, forms, and page layouts.
 
-SEO and Web Metadata
+## SEO and Web Metadata
 
 The project includes several features designed to improve search-engine visibility and web presentation.
 
@@ -273,7 +280,7 @@ These include:
 * Apple touch icon
 * Dynamic page structure
 
-Performance and Production Build
+## Performance and Production Build
 
 The application supports optimized Next.js production builds.
 
@@ -285,42 +292,42 @@ A successful production build verifies:
 * Production optimization
 
 Build the application using:
-
+```
 npm run build
-
-Installation
+```
+## Installation
 
 Clone the repository:
-
+```
 git clone https://github.com/PawanLahiru/first-choice-japan-tours.git
-
+```
 Move into the project folder:
-
+```
 cd first-choice-japan-tours
-
+```
 Install dependencies:
-
+```
 npm install
-
+```
 Start the development server:
-
+```
 npm run dev
-
+```
 Open your browser and visit:
-
+```
 http://localhost:3000
-
-Production Build
+```
+## Production Build
 
 Create an optimized production build:
-
+```
 npm run build
-
+```
 Start the production server:
-
+```
 npm start
-
-Purpose of the Project
+```
+## Purpose of the Project
 
 This project demonstrates practical frontend and web-development skills, including:
 
@@ -336,7 +343,7 @@ This project demonstrates practical frontend and web-development skills, includi
 * Improving SEO structure
 * Using Git and GitHub for version control
 
-Future Improvements
+## Future Improvements
 
 Possible future improvements include:
 
@@ -353,16 +360,17 @@ Possible future improvements include:
 * Real-time tour availability
 * Advanced search and filtering
 
-Author
+## Author
 
-Lahiru Pawan
+Pawan Lahiru
 
 Software / Web Developer based in Kyoto, Japan.
 
-Portfolio
-
+## Portfolio
+```
 https://pawanlahiru.github.io/Portfolio/
-
+```
 GitHub
-
+```
 https://github.com/PawanLahiru
+```
