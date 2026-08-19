@@ -10,10 +10,28 @@ The website showcases popular destinations, tour packages, customer reviews, tra
 
 ## Screenshots
 
-### Dashboard
+### Home
 
-![WorkTrack Dashboard](public/screenshots/Home.png)
+![First Choice Japan Tours Home](public/screenshots/Home.png)
 
+### Tours
+
+![First Choice Japan Tours Home](public/screenshots/Tours.png)
+### Gallery
+
+![First Choice Japan Tours Home](public/screenshots/Gallery.png)
+
+### Reviews
+
+![First Choice Japan Tours Home](public/screenshots/reviews.png)
+
+### FAQ
+
+![First Choice Japan Tours Home](public/screenshots/FAQ.png)
+
+### Contact
+
+![First Choice Japan Tours Home](public/screenshots/Contact.png)
 
 ## Overview
 
