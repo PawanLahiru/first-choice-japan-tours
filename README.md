@@ -8,6 +8,13 @@ The website showcases popular destinations, tour packages, customer reviews, tra
 
 [View Live Website](https://first-choice-japan-tours.vercel.app/)
 
+## Screenshots
+
+### Dashboard
+
+![WorkTrack Dashboard](public/screenshots/Home.png)
+
+
 ## Overview
 
 First Choice Japan Tours was developed as a modern tourism website focused on usability, responsive design, reusable components, and a clean user experience.
